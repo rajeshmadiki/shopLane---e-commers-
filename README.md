@@ -1,11 +1,18 @@
 # ShopLane 🛍️ - Full-Stack E-Commerce Web Application
 
+![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?logo=node.js)
+![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)
+![Vite](https://img.shields.io/badge/Vite-5.2-646CFF?logo=vite)
+![Tests](https://img.shields.io/badge/Tests-12%20Passing-brightgreen)
+
 **ShopLane** is a production-ready, full-stack e-commerce web application engineered for campus placement preparation at **Arshith Group**. Built with a clean, modular architecture, the codebase emphasizes clarity, strict coding standards, accessible UI design, and zero unnecessary external dependencies.
 
 ---
 
 ## 🌟 Live Demo & Repository Links
-- **GitHub Repository**: [https://github.com/rajeshmadiki/shoplane.git](https://github.com/rajeshmadiki/shoplane.git)
+- **GitHub Repository**: [https://github.com/rajeshmadiki/shopLane---e-commers-.git](https://github.com/rajeshmadiki/shopLane---e-commers-.git)
 - **Live Frontend Application (Vercel)**: `https://shoplane-client.vercel.app` *(Deployable link)*
 - **Live REST API Backend (Render)**: `https://shoplane-api.onrender.com` *(Deployable link)*
 
@@ -67,7 +74,7 @@
 
 ### 1. Clone Repository & Setup Environment
 ```bash
-git clone https://github.com/rajeshmadiki/shoplane.git
+git clone https://github.com/rajeshmadiki/shopLane---e-commers-.git
 cd shoplane
 ```
 
@@ -118,7 +125,7 @@ npm test
 ### Backend Deployment on Render (Node.js REST API)
 1. Log in to [Render Dashboard](https://dashboard.render.com/).
 2. Click **New +** -> Select **Web Service**.
-3. Connect your GitHub repository `rajeshmadiki/shoplane`.
+3. Connect your GitHub repository `rajeshmadiki/shopLane---e-commers-`.
 4. Set the **Root Directory** to `server`.
 5. Set the **Build Command** to `npm install`.
 6. Set the **Start Command** to `node server.js`.
@@ -133,7 +140,7 @@ npm test
 ### Frontend Deployment on Vercel (React + Vite)
 1. Log in to [Vercel Dashboard](https://vercel.com/).
 2. Click **Add New...** -> Select **Project**.
-3. Import your GitHub repository `rajeshmadiki/shoplane`.
+3. Import your GitHub repository `rajeshmadiki/shopLane---e-commers-`.
 4. Set the **Root Directory** to `client`.
 5. Framework Preset will automatically detect **Vite**.
 6. In **Environment Variables**, add:
@@ -147,18 +154,4 @@ npm test
 2. **Admin Dashboard**: Adding protected admin routes for real-time inventory management and order status updates.
 3. **Redis Caching Layer**: Caching product query results and category listings in Redis to reduce database read latency.
 
----
 
-## 🎙️ 2-Minute Spoken Interview Walkthrough Script
-
-> *"Good morning/afternoon. Today I'm excited to present **ShopLane**, a full-stack e-commerce web application I built using React 18, Node.js, Express, and MongoDB Atlas.*
-> 
-> *The problem I set out to solve was creating an intuitive, responsive online shopping experience while maintaining a clean, highly readable codebase without heavy third-party UI libraries.*
-> 
-> *On the frontend, I used **React 18 with Vite** and plain CSS Grid and Flexbox for responsive layouts. For state management, I implemented the **Context API with useReducer** to manage the shopping cart state. This allows instant UI updates while seamlessly synchronizing cart data with the backend when users log in. I also implemented a 300ms debounced search input to optimize network requests.*
-> 
-> *On the backend, I built a RESTful API using **Node.js and Express**. User passwords are encrypted using **bcryptjs**, and authentication is handled using **JSON Web Tokens (JWT)**. The API features search filtering, category filtering, price sorting, and pagination. For data storage, I designed Mongoose schemas for Products, Users, and Orders connected to **MongoDB Atlas**.*
-> 
-> *To ensure reliability, I wrote **12 automated test cases** using **Jest and Supertest** for backend routes, and **Vitest with React Testing Library** for frontend components. Finally, the application is deployed with the backend on **Render** and the frontend on **Vercel**.*
-> 
-> *This project strengthened my understanding of asynchronous JavaScript, REST API design, state synchronization, and secure authentication. Thank you!"*
